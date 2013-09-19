@@ -1,5 +1,5 @@
-Capturist - A Web Content Acquisition Tool
-==========================================
+Capturist - for Web Content Acquisition
+=======================================
 
 Installation and Setup
 ----------------------
@@ -8,14 +8,14 @@ Installation and Setup
        pip install BeautifulSoup4
        pip install selenium
 
-  2. Current version support Firefox, Chrome and PhantomJS as operating browser. By default it uses Firefox. Please call your_crawler.setConf(browser=="name of browser") for selection.
+  2. Current version support Firefox, Chrome and PhantomJS as operating browser. By default it uses Firefox. Please use your_crawler.setConf(browser=="name_of_your_browser") for selection.
 
   3. For headless usage, please install PhantomJS (http://phantomjs.org/) and modify __phantomjs_path__ term in crawler.py.
 
   4. Auto proxy setting can be applied when executing run.py, by 'python run.py --proxy' in command line. The performance may be limited by the proxy if enabled.
 
-Introduction
-------------
+Instruction
+-----------
 
   1. crawler.py:
     A crawler class provides basic operations.
