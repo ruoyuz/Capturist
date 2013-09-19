@@ -4,7 +4,7 @@ Capturist - for Web Content Acquisition
 Installation and Setup
 ----------------------
 
-  1. Capturist uses bs4 and selenium modules. Please make sure these modules are installed before using Capturist. You can use pip for installation:
+  1. Capturist is based on Python and uses bs4 and selenium modules. Please make sure these modules are installed before using Capturist. You can use pip for installation:
 
        __pip install BeautifulSoup4__
      
