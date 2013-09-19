@@ -14,7 +14,7 @@ Installation and Setup
   2. Current version support Firefox, Chrome and PhantomJS as operating browser. By default it uses Firefox. Please use __your_crawler.setConf(browser=="name_of_your_browser")__ for selection.
 
 
-  3. For headless usage, please install PhantomJS (http://phantomjs.org/) and modify __phantomjs_path__ term in crawler.py.
+  3. For headless usage, please install PhantomJS (http://phantomjs.org/) and modify __phantomjs_path__ term in __crawler.py__.
 
 
   4. Auto proxy setting can be applied when executing run.py, by __'python run.py --proxy'__ in command line. The performance may be limited by the proxy if enabled.
